@@ -30,7 +30,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo "Deployment stage"
-                //TODO("Lab 5 - Deploy to EKS"): deploy docker images
+                //TODO("Lab 5 - Deploy to EKS"): deploy docker images 
             }
         }
     }
