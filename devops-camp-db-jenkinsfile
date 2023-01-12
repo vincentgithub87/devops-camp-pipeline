@@ -69,21 +69,6 @@ pipeline {
               }
            }
         }
-                      //TODO: build docker image & push to Harbor
-                  }
-                  post {
-                      //TODO: clean local docker images
-                  }
-              }
-              stage('Deploy') {
-                  steps {
-                      echo "Deployment stage"
-                      //TODO: deploy database
-                  }
-              }
-           }
-        }
-    }
     }
     post {
         cleanup {
