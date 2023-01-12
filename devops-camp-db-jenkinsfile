@@ -8,6 +8,7 @@ pipeline {
         HARBOR_REGISTRY = 'harbor.dev.afsmtddso.com'
         HARBOR_PROJECT = 'vbritton-habor-project'
         DB_IMAGE_NAME = 'db'
+    }
     stages {
         //TODO: add stages to pipeline
         stage('Application repository') {
